@@ -1,10 +1,25 @@
-# Files and directories created by pub.
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.buildlog/
+.history
+.svn/
+
+# IntelliJ & VSCode related
+*.iml
+*.ipr
+*.iws
+.idea/
+#.vscode/
+
+# Flutter/Dart/Pub related
+**/doc/
 .dart_tool/
 .packages
-
-# Conventional directory for build outputs.
-build/
-
-# Omit committing pubspec.lock for library packages; see
-# https://dart.dev/guides/libraries/private-files#pubspeclock.
+.pub-cache/
+.pub/
 pubspec.lock
