@@ -15,7 +15,7 @@ This has a few changes from `polylabel`, which make it not backwards compatible:
 ## Usage
 
 ```dart
-import 'package:dart_polylabel2/polylabel.dart';
+import 'package:dart_polylabel2/dart_polylabel2.dart';
 
 final polygon = [[(x: 0, y: 0), (x: 1, y: 0), (x: 1, y: 1), (x: 0, y: 1), (x: 0, y: 0)]];
 final (point: (:x, :y), :distance) = polylabel(polygon);
